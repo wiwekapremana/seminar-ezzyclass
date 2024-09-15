@@ -625,7 +625,7 @@ li {
 .header_section {
   width: 100%;
   float: right;
-  background-image: url(/assets/img/bg-wine.jpeg);
+  background-image: url(../img/bg-wine.JPEG);
   height: auto;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -1595,7 +1595,7 @@ ul.checklist i {
 
 .details{
   padding-top: 500px;
-  background-image: url(/assets/img/bg-wine.jpeg);
+  background-image: url(../assets/img/bg-wine.JPEG);
   height: auto;
   background-size: 100% 100%;
 }
