@@ -274,10 +274,8 @@ a:hover {
 	margin-top: 28px;
 }
 
-
 .bg-testimoni{
-    background-image: url("../img/testimoni.JPG");
-    background-image: url("../img/testimoni.JPG");
+    background-image: url("../img/testimoni.jpg");
     background-size: cover; /* Gambar memenuhi area elemen */
     background-position: center; /* Posisi tengah gambar */
     width: 100%; /* Lebar penuh */
