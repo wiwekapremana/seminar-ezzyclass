@@ -1,0 +1,182 @@
+/* Tablet (max-width: 991px) */
+@media (max-width: 991px) {
+    .banner_section {
+        padding: 60px 0px 50px 0px;
+        background-size: cover;
+        /* Agar gambar background tetap proporsional */
+    }
+
+    .header_section {
+        background-image: url("../img/mobile-bg.jpeg");
+        background-size: cover;
+        /* Agar gambar tetap memenuhi area */
+        background-position: center;
+    }
+
+    .banner_taital {
+        font-size: 45px;
+        line-height: 55px;
+        text-align: left;
+        color: #ff3000;
+    }
+
+    .banner_taital span {
+
+        color: #ff3000;
+        border-bottom: 4px solid #ff3000;
+
+    }
+
+    .banner_text {
+        font-size: 14px;
+        margin-top: 15px;
+        color: #ff3000;
+    }
+
+    .b-example-divider-1 {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .about_bt {
+        width: 180px;
+    }
+
+    .about_taital {
+        width: 100%;
+        float: left;
+        font-size: 32px;
+        color: #3b3b3b;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 0px;
+    }
+
+    .testimonials1 {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 115px;
+    }
+    .jarak{
+        display: block; 
+        padding-top: 30px;
+      }
+      .middle{
+        text-align: center;
+      }
+}
+
+/* Ponsel (max-width: 767px) */
+@media (max-width: 767px) {
+    .header_section {
+        background-image: url("../img/mobile-bg.jpeg");
+        background-size: cover;
+        /* Agar gambar tetap memenuhi area */
+        background-position: center;
+    }
+
+    .banner_section {
+        padding: 40px 0px 30px 0px;
+        background-size: cover;
+    }
+
+    .banner_taital {
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+        /* Sesuaikan posisi teks di ponsel */
+        color: #ff3000;
+    }
+
+    .banner_taital span {
+
+        color: #ff3000;
+        border-bottom: 4px solid #ff3000;
+
+    }
+
+    .banner_text {
+        font-size: 16px;
+        text-align: center;
+        /* Pusatkan teks di ponsel */
+        color: #ff3000;
+    }
+
+    .about_bt {
+        width: 160px;
+        margin: 0 auto;
+        /* Pusatkan tombol */
+        float: none;
+    }
+
+    .about_taital {
+        width: 100%;
+        float: left;
+        font-size: 32px;
+        color: #3b3b3b;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 0px;
+    }
+
+    .b-example-divider-1 {
+        width: 100%;
+        height: 35rem;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        /* Memusatkan gambar secara horizontal */
+        align-items: center;
+        /* Memusatkan gambar secara vertikal */
+        width: 100%;
+        /* Pastikan elemen induk memiliki lebar penuh */
+    }
+
+    .navbar-brand img {
+        max-width: 300px;
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials1 {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 115px;
+    }
+    .team-img img {
+        height: 330px; /* Sesuaikan ketinggian gambar agar proporsional di perangkat kecil */
+        object-fit: cover; /* Pastikan gambar tetap rapi */
+      }
+      .jarak{
+        display: block; 
+        padding-top: 30px;
+      }
+      .middle{
+        text-align: center;
+      }
+}
+
+/* Ponsel Kecil (max-width: 576px) */
+@media (max-width: 576px) {
+    .banner_section {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .banner_taital {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .banner_text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_bt {
+        width: 150px;
+        margin: 0 auto;
+    }
+}
