@@ -274,11 +274,116 @@ a:hover {
 	margin-top: 28px;
 }
 
-.bg-testimoni{
-    background-image: url("../img/testimoni.jpg");
+.bg-testimoni .container{
+    background-image: url("../img/thumbnail.jpg");
     background-size: cover; /* Gambar memenuhi area elemen */
-    background-position: center; /* Posisi tengah gambar */
-    width: 100%; /* Lebar penuh */
-    min-height: 500px; /* Atur tinggi minimal elemen, bisa diubah sesuai kebutuhan */
+    background-position: top; /* Posisi tengah gambar */
+    width: 100%;
+    min-height: 650px; 
+}
+.image-section img{
+  background-size: cover; /* Gambar memenuhi area elemen */
+  width: 100%;
+  height: auto;
 }
 
+
+.container1 {
+  width: 100%;
+  height: auto;
+  background-color: #5e4040;
+  background-image: url("../img/wine-price.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+
+.event-container {
+  /* background-color: #FF6600; Orange background */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  /* border-radius: 10px; */
+  font-family: 'Poppins', sans-serif;
+  max-width: 500px;
+  margin: auto;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.event-header {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.event-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.event-price {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.new-price {
+  font-weight: bold;
+  color: white;
+}
+.only {
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+}
+.event-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.event-time {
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.register-btn {
+  background-color: #ff3000; /* Green button */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #ffffff; /* Darker green on hover */
+  color: #ff3000;
+  transform: translateY(-3px); /* Slight upward movement on hover */
+}
